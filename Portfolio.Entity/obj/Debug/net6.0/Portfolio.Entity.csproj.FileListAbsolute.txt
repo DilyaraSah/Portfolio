@@ -1,0 +1,14 @@
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.deps.json
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.runtimeconfig.json
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.dll
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\bin\Debug\net6.0\ref\Portfolio.Entity.dll
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.pdb
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.csproj.AssemblyReference.cache
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.AssemblyInfoInputs.cache
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.AssemblyInfo.cs
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.csproj.CoreCompileInputs.cache
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.dll
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\ref\Portfolio.Entity.dll
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.pdb
+D:\GitProjects\Portfolio\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.genruntimeconfig.cache
