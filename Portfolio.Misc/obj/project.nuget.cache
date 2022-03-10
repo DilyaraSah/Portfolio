@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KNI3sKitQ9dS7iI0BnTIIakbD6SFxEsVvRL+/ogke/icHnmtQ6A1ebagh/IQ5Tic4xaG4IkF/OY0o9AIwmetKg==",
+  "dgSpecHash": "9tgoC8Hghk1hY32Kia5UaseW2LOLVoWkSbKoRhCaw1JVQtTPfNufA6r7YDwWqKAmM2mbbjBwZvj+BRnT4D02lA==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Misc\\Portfolio.Misc.csproj",
+  "projectFilePath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sahib\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
     "C:\\Users\\sahib\\.nuget\\packages\\mimekit\\3.1.1\\mimekit.3.1.1.nupkg.sha512",

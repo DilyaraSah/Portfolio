@@ -250,11 +250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Rider\\PotfolioMain\\PotfolioMain\\PotfolioMain.csproj",
+      "projectUniqueName": "D:\\GitProjects\\Portfolio\\Portfolio\\PotfolioMain\\PotfolioMain.csproj",
       "projectName": "PotfolioMain",
-      "projectPath": "D:\\Code\\Rider\\PotfolioMain\\PotfolioMain\\PotfolioMain.csproj",
+      "projectPath": "D:\\GitProjects\\Portfolio\\Portfolio\\PotfolioMain\\PotfolioMain.csproj",
       "packagesPath": "C:\\Users\\sahib\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Rider\\PotfolioMain\\PotfolioMain\\obj\\",
+      "outputPath": "D:\\GitProjects\\Portfolio\\Portfolio\\PotfolioMain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sahib\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -269,8 +269,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Misc\\Portfolio.Misc.csproj": {
-              "projectPath": "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Misc\\Portfolio.Misc.csproj"
+            "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
+              "projectPath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj"
             }
           }
         }

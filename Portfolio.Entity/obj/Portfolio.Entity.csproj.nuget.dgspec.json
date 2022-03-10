@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Entity\\Portfolio.Entity.csproj": {}
+    "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Entity\\Portfolio.Entity.csproj": {
+    "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Entity\\Portfolio.Entity.csproj",
+        "projectUniqueName": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
         "projectName": "Portfolio.Entity",
-        "projectPath": "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Entity\\Portfolio.Entity.csproj",
+        "projectPath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
         "packagesPath": "C:\\Users\\sahib\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Entity\\obj\\",
+        "outputPath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sahib\\AppData\\Roaming\\NuGet\\NuGet.Config"

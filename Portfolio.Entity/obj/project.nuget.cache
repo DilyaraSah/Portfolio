@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1L6nUT2bMl4Xs2xzHI2K67bYCvKdp4sVjyfEw0gJ7PW+GQ9/Vk/VRE7lnu2E+m6ZIlBx3Mq2ghiYMxQYZaCAUQ==",
+  "dgSpecHash": "seLMv/x5ro8o/nXVoN0mRtlWStzEP9FVc1LDyI+Zdg68yz7fb/sCxbXd0PhOfMUWFWU3blfS6J09x+wd++NuHg==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Rider\\PotfolioMain\\Portfolio.Entity\\Portfolio.Entity.csproj",
+  "projectFilePath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
