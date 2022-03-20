@@ -1,5 +1,5 @@
 using PotfolioMain;
-using Portfolio.DataAccess;
+using Portfolio.DataAccess.Context;
 using Portfolio.Misc.Services.EmailServices;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,8 +14,9 @@ builder.Services.AddSingleton(emailConfig);
 
 builder.Services.AddScoped<IEmailServices, EmailServices>();
 
-builder.Services.AddDbContext<Context>(opts =>
-    opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
+builder.Services.AddDbContext<ApplicationContext>(opts =>
+    opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"))); 
+
 
 var app = builder.Build();
 

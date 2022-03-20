@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Portfolio.Entity;
 
-namespace Portfolio.DataAccess;
+namespace Portfolio.DataAccess.Context;
 
-public class Context: DbContext
+public class ApplicationContext: DbContext
 {
     public DbSet<Request> Requests { get; set; } = null!;
 
-    public Context(DbContextOptions options)
+    public ApplicationContext(DbContextOptions options)
         :base(options) { }
 }
