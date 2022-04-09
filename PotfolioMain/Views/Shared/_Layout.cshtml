@@ -9,68 +9,74 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/header.css"/>
-    <link rel="stylesheet" href="css/footer.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="css/contact.css"/>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/> *@
+    <link rel="stylesheet" href="~/css/header.css"/>
+    <link rel="stylesheet" href="~/css/footer.css"/>
+    <link rel="stylesheet" href="~/css/main.css"/>
+    <link rel="stylesheet" href="~/css/contact.css"/>
+    <link rel="stylesheet" href="~/css/work.css"/>
 </head>
-<div class="container-fluid">
-    <header class="header row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block">
-            <a class="name" href="#">
-                Stanley
-            </a>
+<body class="container-fluid">
+<header class="header row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block">
+        <a class="name" asp-controller="Home" asp-action="Index">
+            Stanley
+        </a>
+    </div>
+
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 block">
+        <ul class="oneLine">
+            <a class="header" href="#">Register</a>
+            <a class="header" asp-controller="Home" asp-action="Work">Work</a>
+            <a class="header" href="#">About</a>
+            <a class="header" href="#">Blog</a>
+            <a class="header" asp-controller="Contact" asp-action="Contact">Contact</a>
+        </ul>
+    </div>
+</header>
+
+@RenderBody()
+
+<footer class="footer row">
+    <div class="col-md-3 col-md-offset-1 col-sm-4 ">
+        <div class="footerBigText">
+            My address
         </div>
 
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 block">
-            <ul class="oneLine">
-                <a class="header" asp-controller="Home" asp-action="Work">Work</a>
-                <a class="header" href="#">About</a>
-                <a class="header" href="#">Blog</a>
-                <a class="header" asp-controller="Contact" asp-action="Contact">Contact</a>
-            </ul>
-        </div>
-    </header>
-
-    @RenderBody()
-
-    <footer class="footer row">
-        <div class="col-md-3 col-md-offset-1 col-sm-4 ">
-            <div class="footerBigText">
-                My address
-            </div>
-
-            <div class="footerText">
-                Some address 18,
-            </div>
-
-            <div class="footerText">
-                +79273463751,
-            </div>
-
-            <div class="footerText">
-                Russia, Kazan
-            </div>
+        <div class="footerText">
+            Some address 18,
         </div>
 
-        <div class="col-md-3 col-md-offset-1 col-sm-4">
-            <div class="footerBigText">
-                My links
-            </div>
-
-            <div class="footerText"><a class="footer" href="https://www.instagram.com/deal.tea/">Instagram</a></div>
-            <div class="footerText"><a class="footer" href="https://vk.com/sahibgareeva_d">VK</a></div>
+        <div class="footerText">
+            +79273463751,
         </div>
 
-        <div class="col-md-3 col-md-offset-1 col-sm-4">
-            <div class="footerBigText">
-                About me
-            </div>
-
-            <div class="footerText">
-                I like to sleep
-            </div>
+        <div class="footerText">
+            Russia, Kazan
         </div>
-    </footer>
-</div>
+    </div>
+
+    <div class="col-md-3 col-md-offset-1 col-sm-4">
+        <div class="footerBigText">
+            My links
+        </div>
+
+        <div class="footerText"><a class="footer" href="#">Dribble</a></div>
+        <div class="footerText"><a class="footer" href="#">Twitter</a></div>
+        <div class="footerText"><a class="footer" href="#">Facebook</a></div>
+    </div>
+
+    <div class="col-md-3 col-md-offset-1 col-sm-4">
+        <div class="footerBigText">
+            About me
+        </div>
+
+        <div class="footerText">
+            This cute theme was created to showcase your work in a simple way. Use it wisely.
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

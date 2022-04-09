@@ -1,0 +1,38 @@
+.center{
+    text-align: center;
+}
+
+.workBigText{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.workText{
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(105, 105, 105);
+}
+
+hr.work{
+    margin-top: 5px;
+    border-style: inset;
+    border-width: 0.5px;    
+    width: 40%;
+    height: 0.55px;
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+}
+
+
+
+/*.img{*/
+/*    width: 350px;*/
+/*    height: 200px;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/*.imgName{*/
+/*    font-size: 30px;*/
+/*    margin-bottom: 30px;*/
+/*}*/

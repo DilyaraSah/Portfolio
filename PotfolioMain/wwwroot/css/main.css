@@ -23,11 +23,17 @@
     margin-bottom: 110px;
 }
 
-.img{
+img.works{
     width: 350px;
-    height: 300px;
-    margin-top: 30px;
+    height: 200px;
+    margin-top: 100px;
 }
+
+/*.img{*/
+/*    width: 350px;*/
+/*    height: 200px;*/
+/*    margin-top: 100px;*/
+/*}*/
 
 .imgName{
     font-size: 30px;

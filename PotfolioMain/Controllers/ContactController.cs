@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Portfolio.Misc.Services.EmailServices;
-using Portfolio.DataAccess.Context;
+using Portfolio.DataAccess;
 using MimeKit;
 
 namespace PotfolioMain.Controllers;

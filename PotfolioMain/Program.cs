@@ -1,5 +1,5 @@
 using PotfolioMain;
-using Portfolio.DataAccess.Context;
+using Portfolio.DataAccess;
 using Portfolio.Misc.Services.EmailServices;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,8 +10,8 @@ builder.Services.AddControllersWithViews();
 var emailConfig = builder.Configuration
     .GetSection("EmailConfiguration")
     .Get<EmailConfiguration>();
-builder.Services.AddSingleton(emailConfig);
 
+builder.Services.AddSingleton(emailConfig);
 builder.Services.AddScoped<IEmailServices, EmailServices>();
 
 builder.Services.AddDbContext<ApplicationContext>(opts =>
