@@ -4,16 +4,25 @@ namespace Portfolio.Misc.Services.EmailServices;
 
 public class Message
 {
-    public List<MailboxAddress> To { get; set; }
-    public string Subject { get; set; }
-    public string Content { get; set; }
+    public MimeMessage MimeMessage { get; set; }
+    public EmailConfiguration Configuration;
 
-    public Message(IEnumerable<string> to, string subject, string content)
+    public Message(string header, string content, string reciever, EmailConfiguration emailConfiguration)
     {
-        To = new List<MailboxAddress>();
-
-        To.AddRange(to.Select(x => new MailboxAddress("Stanley Support", x)));
-        Subject = subject;
-        Content = content;
+        Configuration = emailConfiguration;
+        MimeMessage = CreateMessage(header, CreateBody(content));
+        MimeMessage.To.Add(new MailboxAddress($"{reciever}", $"{reciever}"));
     }
+
+    public MimeMessage CreateMessage(string header, MimeEntity bobyEntity)
+    {
+        MimeMessage message = new MimeMessage();
+        message.From.Add(new MailboxAddress(Configuration.UserName, Configuration.From));
+        message.Subject = header;
+        message.Body = bobyEntity;
+        return message;
+    }
+    
+    public MimeEntity CreateBody(string bodyText)
+        => new BodyBuilder() {TextBody = $"{bodyText}"}.ToMessageBody();
 }

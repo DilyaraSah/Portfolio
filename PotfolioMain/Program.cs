@@ -6,17 +6,12 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-var emailConfig = builder.Configuration
-    .GetSection("EmailConfiguration")
-    .Get<EmailConfiguration>();
-
-builder.Services.AddSingleton(emailConfig);
-builder.Services.AddScoped<IEmailServices, EmailServices>();
+builder.Services.AddSingleton<EmailServices>();
+builder.Services.AddSingleton(builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
 
 builder.Services.AddDbContext<ApplicationContext>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"))); 
-
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
