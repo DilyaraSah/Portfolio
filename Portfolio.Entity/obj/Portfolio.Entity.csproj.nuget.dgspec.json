@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {}
+    "D:\\GitProjects\\PortfolioMain\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {}
   },
   "projects": {
-    "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
+    "D:\\GitProjects\\PortfolioMain\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
+        "projectUniqueName": "D:\\GitProjects\\PortfolioMain\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
         "projectName": "Portfolio.Entity",
-        "projectPath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
+        "projectPath": "D:\\GitProjects\\PortfolioMain\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
         "packagesPath": "C:\\Users\\sahib\\.nuget\\packages\\",
-        "outputPath": "D:\\GitProjects\\Portfolio\\Portfolio\\Portfolio.Entity\\obj\\",
+        "outputPath": "D:\\GitProjects\\PortfolioMain\\Portfolio\\Portfolio.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sahib\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,21 +38,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             }
           },
           "imports": [

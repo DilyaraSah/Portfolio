@@ -24,3 +24,17 @@ D:\GitProjects\Portfolio\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Mis
 D:\GitProjects\Portfolio\Portfolio\Portfolio.Misc\obj\Debug\net6.0\ref\Portfolio.Misc.dll
 D:\GitProjects\Portfolio\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.pdb
 D:\GitProjects\Portfolio\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.genruntimeconfig.cache
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.deps.json
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.runtimeconfig.json
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.dll
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\bin\Debug\net6.0\ref\Portfolio.Misc.dll
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.pdb
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.csproj.AssemblyReference.cache
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.AssemblyInfoInputs.cache
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.AssemblyInfo.cs
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.csproj.CoreCompileInputs.cache
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.dll
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\ref\Portfolio.Misc.dll
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.pdb
+D:\GitProjects\PortfolioMain\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.genruntimeconfig.cache

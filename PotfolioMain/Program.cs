@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using PotfolioMain;
 using Portfolio.DataAccess;
 using Portfolio.Misc.Services.EmailServices;
@@ -11,6 +12,14 @@ builder.Services.AddSingleton(builder.Configuration.GetSection("EmailConfigurati
 
 builder.Services.AddDbContext<ApplicationContext>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"))); 
+
+builder.Services.AddDbContext<ApplicationContext>(opts =>
+    opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
+builder.Services
+    .AddIdentity<User, IdentityRole>(options => 
+        options.User.AllowedUserNameCharacters.Contains(" "))
+    .AddEntityFrameworkStores<ApplicationContext>();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -28,6 +37,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
