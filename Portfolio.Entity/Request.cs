@@ -1,5 +1,8 @@
-﻿namespace Portfolio.Entity;
+﻿using Microsoft.EntityFrameworkCore;
 
+namespace Portfolio.Entity;
+
+[Keyless]
 public class Request
 {
     public string Name { get; set; } = null!;

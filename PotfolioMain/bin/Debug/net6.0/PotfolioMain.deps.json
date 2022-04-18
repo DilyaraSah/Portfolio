@@ -79,7 +79,7 @@
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.8.0",
           "Microsoft.Win32.Registry": "4.7.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
-          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "7.0.0-preview.3.22175.4",
           "System.Runtime.Caching": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0",
           "System.Text.Encoding.CodePages": "4.7.0"
@@ -129,32 +129,32 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/6.0.4": {
+      "Microsoft.EntityFrameworkCore/7.0.0-preview.3.22175.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.4",
-          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.4",
-          "Microsoft.Extensions.Caching.Memory": "6.0.1",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.Extensions.Logging": "6.0.0",
-          "System.Collections.Immutable": "6.0.0",
-          "System.Diagnostics.DiagnosticSource": "6.0.0"
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-preview.3.22175.1",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.0-preview.3.22175.1",
+          "Microsoft.Extensions.Caching.Memory": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.3.22175.4",
+          "System.Collections.Immutable": "7.0.0-preview.3.22175.4",
+          "System.Diagnostics.DiagnosticSource": "7.0.0-preview.3.22175.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.4.0",
-            "fileVersion": "6.0.422.16106"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17501"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/6.0.4": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.3.22175.1": {
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "6.0.4.0",
-            "fileVersion": "6.0.422.16106"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17501"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/6.0.4": {},
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.3.22175.1": {},
       "Microsoft.EntityFrameworkCore.Design/6.0.4": {
         "dependencies": {
           "Humanizer.Core": "2.8.26",
@@ -169,7 +169,7 @@
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.4": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.3.22175.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -196,43 +196,61 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.4"
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.3.22175.4": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.0"
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/6.0.1": {
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Microsoft.Extensions.Primitives": "6.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.3.22175.4"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.222.6406"
+          "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0-preview.3.22175.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
           }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.0"
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.3.22175.4"
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "Microsoft.Extensions.DependencyInjection/7.0.0-preview.3.22175.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.3.22175.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
       "Microsoft.Extensions.Identity.Core/6.0.4": {
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.4",
-          "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0"
+          "Microsoft.Extensions.Logging": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.3.22175.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Identity.Core.dll": {
@@ -243,9 +261,9 @@
       },
       "Microsoft.Extensions.Identity.Stores/6.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0-preview.3.22175.4",
           "Microsoft.Extensions.Identity.Core": "6.0.4",
-          "Microsoft.Extensions.Logging": "6.0.0"
+          "Microsoft.Extensions.Logging": "7.0.0-preview.3.22175.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Identity.Stores.dll": {
@@ -254,25 +272,46 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging/6.0.0": {
+      "Microsoft.Extensions.Logging/7.0.0-preview.3.22175.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "System.Diagnostics.DiagnosticSource": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
-      "Microsoft.Extensions.Options/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Primitives": "6.0.0"
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.3.22175.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.0": {
+      "Microsoft.Extensions.Options/7.0.0-preview.3.22175.4": {
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.3.22175.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.3.22175.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
         }
       },
       "Microsoft.Identity.Client/4.21.1": {
@@ -385,9 +424,15 @@
           }
         }
       },
-      "System.Collections.Immutable/6.0.0": {
+      "System.Collections.Immutable/7.0.0-preview.3.22175.4": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
         }
       },
       "System.Configuration.ConfigurationManager/4.7.0": {
@@ -402,9 +447,15 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "System.Diagnostics.DiagnosticSource/7.0.0-preview.3.22175.4": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
         }
       },
       "System.Drawing.Common/4.7.0": {
@@ -534,6 +585,7 @@
       "Portfolio.DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4",
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.3.22175.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
           "Portfolio.Entity": "1.0.0"
         },
@@ -624,26 +676,26 @@
       "path": "microsoft.data.sqlclient.sni.runtime/2.1.1",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/6.0.4": {
+    "Microsoft.EntityFrameworkCore/7.0.0-preview.3.22175.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gTh3SJsF5WNjEmG32kYc3U4tjeTIv55QOrwHAJcF/xtrIVMteDHMArGC35N0dw86WFY0v8yFkKYKOIOln4jkfQ==",
-      "path": "microsoft.entityframeworkcore/6.0.4",
-      "hashPath": "microsoft.entityframeworkcore.6.0.4.nupkg.sha512"
+      "sha512": "sha512-Bj2H0WEL/W8Ii7ZkdbzX77/kQfM2pG+FmwLeox1Mt/E7X7J7wHw3y++ZlgPfN4KYl5/PhY/RMDIZWvYQoEpK8w==",
+      "path": "microsoft.entityframeworkcore/7.0.0-preview.3.22175.1",
+      "hashPath": "microsoft.entityframeworkcore.7.0.0-preview.3.22175.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/6.0.4": {
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.3.22175.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jycTQF0FUJp10cGWBmtsyFhQNeISU9CltDRKCaNiX4QRSEFzgRgaFN4vAFK0T+G5etmXugyddijE4NWCGtgznQ==",
-      "path": "microsoft.entityframeworkcore.abstractions/6.0.4",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512"
+      "sha512": "sha512-OIMB7WRsh21Tuu+5341JCYjcE4cADjHFb390sb5C9Z0ZiR5zNJLX3sl78ID2g6Qy0yfZ3q/gIv8VE5PvkSR1ew==",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.0-preview.3.22175.1",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.0-preview.3.22175.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/6.0.4": {
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.3.22175.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t12WodVyGGP2CuLo7R1qwcawHY5zlg+GiQzvkceZpsjcFJVyTFFBFDPg1isBtzurLzWsl+G3z5fVXeic90mPxg==",
-      "path": "microsoft.entityframeworkcore.analyzers/6.0.4",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512"
+      "sha512": "sha512-B1qtePDKfbCuCXCn1SxvVMDgHkFbNFTUFNnQKo8F0OWlo5Rj0Y5WU54N3okfA/S5Udo0bZQCTjG0YTZ+8zChvw==",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.0-preview.3.22175.1",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.0-preview.3.22175.1.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Design/6.0.4": {
       "type": "package",
@@ -673,19 +725,19 @@
       "path": "microsoft.entityframeworkcore.tools/6.0.4",
       "hashPath": "microsoft.entityframeworkcore.tools.6.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
-      "path": "microsoft.extensions.caching.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-+P7ny1xG3vZAcMGCN3U0A6wula/zfJmrLVGcLhT8hVP3TlHSVjiEwdRBdIrxJoWLXwTx0sdUfNx+xcm6L7dDSA==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Memory/6.0.1": {
+    "Microsoft.Extensions.Caching.Memory/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B4y+Cev05eMcjf1na0v9gza6GUtahXbtY1JCypIgx3B4Ea/KAgsWyXEmW4q6zMbmTMtKzmPVk09rvFJirvMwTg==",
-      "path": "microsoft.extensions.caching.memory/6.0.1",
-      "hashPath": "microsoft.extensions.caching.memory.6.0.1.nupkg.sha512"
+      "sha512": "sha512-vEYSUgTgO8B29S7KZVO38SaUFtO+KUgMLPiD1mgGNyAeqk9gsjldW1iKbhQqX6qtIfz8o7jafVOD9H+u5kP/AQ==",
+      "path": "microsoft.extensions.caching.memory/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
       "type": "package",
@@ -694,19 +746,19 @@
       "path": "microsoft.extensions.configuration.abstractions/6.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+    "Microsoft.Extensions.DependencyInjection/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
-      "path": "microsoft.extensions.dependencyinjection/6.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+      "sha512": "sha512-dSfDYPNRCTjDkx3h2aK/7PQqrZZgUbaQ/xogXP4kGgDuiJ6BaGQnSzC+GmgGFNXf5xsqoy+lNavhJ9+JN4LHWA==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-gU+UpmJyqom6TCkuZTxWUjqzaTikVOGBTayg0N67Vey3GF62Qr4+PU5vgAxQqtMtu8dKkcgw8o/myLJB/3G/cw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/6.0.4": {
       "type": "package",
@@ -722,33 +774,33 @@
       "path": "microsoft.extensions.identity.stores/6.0.4",
       "hashPath": "microsoft.extensions.identity.stores.6.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging/6.0.0": {
+    "Microsoft.Extensions.Logging/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
-      "path": "microsoft.extensions.logging/6.0.0",
-      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
+      "sha512": "sha512-IhoMP5ixz2Uy8a3XNiPV/bp745KProZdZ8XHE5aig+xm3EfnTF8I4btak105XRNntm72mTTyw704E5pAj56v4Q==",
+      "path": "microsoft.extensions.logging/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.logging.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
-      "path": "microsoft.extensions.logging.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-QQECLQmfeOhwKR7vZbTmCQW5+N5vz6126xGzVXISmzppzdUH9L0tqOi2Es2Tb7t6cfdXnaKxR5Fls91JBWApVw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/6.0.0": {
+    "Microsoft.Extensions.Options/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
-      "path": "microsoft.extensions.options/6.0.0",
-      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+      "sha512": "sha512-JLgSBexBAMNf8TDtCIn+S5AwjQwXaUG4j6N8VXj4HO1augBOem8KIMnjaT+vYGkAQlStPsY60J1vOyvn5HM3Fg==",
+      "path": "microsoft.extensions.options/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.options.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/6.0.0": {
+    "Microsoft.Extensions.Primitives/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
-      "path": "microsoft.extensions.primitives/6.0.0",
-      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+      "sha512": "sha512-IkANgvqx4Kxfqruz8aIVH7KsCOIWDz/TJw8q15J3bndp8pm2Mgaw1b+khjpSYJ54V23mO7gKY53579YFl0jJiQ==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.21.1": {
       "type": "package",
@@ -827,12 +879,12 @@
       "path": "portable.bouncycastle/1.9.0",
       "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
     },
-    "System.Collections.Immutable/6.0.0": {
+    "System.Collections.Immutable/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
-      "path": "system.collections.immutable/6.0.0",
-      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+      "sha512": "sha512-8rToKXVqi1HkpReLbpTwRrbPUWt1fhb41FVuddLyJBvX7MuVp5FN4SQctQ61qufjQCTh0pvrNEYO2zn/+aWEnQ==",
+      "path": "system.collections.immutable/7.0.0-preview.3.22175.4",
+      "hashPath": "system.collections.immutable.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/4.7.0": {
       "type": "package",
@@ -841,12 +893,12 @@
       "path": "system.configuration.configurationmanager/4.7.0",
       "hashPath": "system.configuration.configurationmanager.4.7.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/6.0.0": {
+    "System.Diagnostics.DiagnosticSource/7.0.0-preview.3.22175.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
-      "path": "system.diagnostics.diagnosticsource/6.0.0",
-      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
+      "sha512": "sha512-sthL0HGHsxddK0j449oDYfMwENapborzmssSGG+Nx9xG2LbSmrVAX+Cnzj3JSvdi328tLlPeDF5F1gYE2xwi5g==",
+      "path": "system.diagnostics.diagnosticsource/7.0.0-preview.3.22175.4",
+      "hashPath": "system.diagnostics.diagnosticsource.7.0.0-preview.3.22175.4.nupkg.sha512"
     },
     "System.Drawing.Common/4.7.0": {
       "type": "package",

@@ -11,9 +11,6 @@ builder.Services.AddSingleton<EmailServices>();
 builder.Services.AddSingleton(builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
 
 builder.Services.AddDbContext<ApplicationContext>(opts =>
-    opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"))); 
-
-builder.Services.AddDbContext<ApplicationContext>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
 builder.Services
     .AddIdentity<User, IdentityRole>(options => 
